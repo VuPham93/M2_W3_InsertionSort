@@ -18,12 +18,13 @@ public class InsertionSortTest {
         for (int i = 0; i < list2.length; i++) {
             list2[i] = random.nextInt(20);
         }
-        System.out.print("\nList 2: ");
+        System.out.print("\n\nList 2: ");
         for (int value : list2) {
             System.out.print(value + "\t");
         }
 
-        System.out.println("\nBegin sort processing...");
+        System.out.println("\nBegin sort processing...\n");
         InsertionSort.insertionSortDetail(list2);
+
     }
 }
