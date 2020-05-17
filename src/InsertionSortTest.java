@@ -23,7 +23,7 @@ public class InsertionSortTest {
             System.out.print(value + "\t");
         }
 
-        System.out.println("\nBegin sort processing...\n");
+        System.out.println("\nBegin sort processing...");
         InsertionSort.insertionSortDetail(list2);
 
     }
